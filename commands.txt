@@ -1,0 +1,13 @@
+task 01
+run
+javac --source-path . ./task01/src/vttp/batch5/sdf/task01/*.java ./task01/src/vttp/batch5/sdf/task01/*/*.java -d task01/classes
+compile
+java -cp task01/classes vttp/batch5/sdf/task01/Main     
+
+
+task02
+compile
+javac --source-path . ./task02/src/vttp/batch5/sdf/task02/*.java -d classes
+
+run
+java -cp classes vttp/batch5/sdf/task02/Main task02/TTT/board0.txt
